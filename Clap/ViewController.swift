@@ -49,7 +49,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         return 10
     }
     //選択肢になにを表示していくか１
-    func pickerView(pickerView:UIPickerView, titleForRow row: Int, forComponent component: Int) ->String!{
+    func pickerView(pickerview: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
         return "\(row+1)回"
     }
     func pickerView(pickerView:UIPickerView, didSelectRow row: Int, inComponent component: Int) {
