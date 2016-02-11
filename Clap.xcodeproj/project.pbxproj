@@ -14,6 +14,8 @@
 		D0E032E31C6A402D0025B7F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E032E11C6A402D0025B7F8 /* LaunchScreen.storyboard */; };
 		D0E032EE1C6A402D0025B7F8 /* ClapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E032ED1C6A402D0025B7F8 /* ClapTests.swift */; };
 		D0E032F91C6A402D0025B7F8 /* ClapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E032F81C6A402D0025B7F8 /* ClapUITests.swift */; };
+		D0E033081C6A40640025B7F8 /* clap-button.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E033061C6A40640025B7F8 /* clap-button.png */; };
+		D0E033091C6A40640025B7F8 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0E033071C6A40640025B7F8 /* clap.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D0E032F41C6A402D0025B7F8 /* ClapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E032F81C6A402D0025B7F8 /* ClapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClapUITests.swift; sourceTree = "<group>"; };
 		D0E032FA1C6A402D0025B7F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E033061C6A40640025B7F8 /* clap-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clap-button.png"; sourceTree = "<group>"; };
+		D0E033071C6A40640025B7F8 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				D0E032DC1C6A402D0025B7F8 /* Main.storyboard */,
 				D0E032DF1C6A402D0025B7F8 /* Assets.xcassets */,
 				D0E032E11C6A402D0025B7F8 /* LaunchScreen.storyboard */,
+				D0E033061C6A40640025B7F8 /* clap-button.png */,
+				D0E033071C6A40640025B7F8 /* clap.wav */,
 				D0E032E41C6A402D0025B7F8 /* Info.plist */,
 			);
 			path = Clap;
@@ -229,9 +235,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E033091C6A40640025B7F8 /* clap.wav in Resources */,
 				D0E032E31C6A402D0025B7F8 /* LaunchScreen.storyboard in Resources */,
 				D0E032E01C6A402D0025B7F8 /* Assets.xcassets in Resources */,
 				D0E032DE1C6A402D0025B7F8 /* Main.storyboard in Resources */,
+				D0E033081C6A40640025B7F8 /* clap-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
